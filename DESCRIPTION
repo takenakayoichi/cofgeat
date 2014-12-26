@@ -1,0 +1,15 @@
+Package: cofgeat
+Type: Package
+Title: This measures the controlling Force of Gene expression along time course
+Version: 1.0
+Date: 2014-12-26
+Author: Yoichi Takenaka
+Maintainer: Who to complain to <takenaka@ist.osaka-u.ac.jp>
+Description: 
+ This measures the controlling Force of Gene expression along time course of expression profiles.
+ This is one of the bioinformatic tools to analyze gene expression profiles.
+ Given a gene regulatory network and gene expression profiles, 
+ the library reports how the strength of gene controll changes along time course.
+ The strength is reported for each gene.
+License: MIT
+Imports: bnlearn
